@@ -13,15 +13,15 @@ My additions are:
 * Re-arrange pinout so its compatable with the Amiga mouse. 
 
 Parts required: 
-74LS191 x4
-74LS257 x2
-74LS138
-74LS00
-74LS1235
-10nf capacitor x2
-100nf capacitors x9
-PCB mount DB9 connector.
-Edge connector x1 (If required)
+* 74LS191 x4
+* 74LS257 x2
+* 74LS138
+* 74LS00
+* 74LS1235
+* 10nf capacitor x2
+* 100nf capacitors x9
+* PCB mount DB9 connector.
+* Edge connector x1 (If required)
 
 Note, the jumpers J2,3,4,5 are there because i wasnt sure of the X1/X2 Y1/Y2 order. 
 Now i know, you can just jumper the squared pins off (technically Pins 2/3), so the next version probably wont have them. 
