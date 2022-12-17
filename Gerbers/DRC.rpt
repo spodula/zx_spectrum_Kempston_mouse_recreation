@@ -1,0 +1,34 @@
+** Drc report for /home/graham/kicad/HProject/Mouse/Mouse.kicad_pcb **
+** Created on 2022-08-27 15:39:46 **
+
+** Found 7 DRC violations **
+[track_dangling]: Track has unconnected end
+    Local override; Severity: warning
+[track_dangling]: Track has unconnected end
+    Local override; Severity: warning
+    @(164.8750 mm, 122.5850 mm): Track [GND] on F.Cu, length 0.1556 mm
+[track_dangling]: Track has unconnected end
+    Local override; Severity: warning
+    @(176.7250 mm, 133.7500 mm): Track [+5V] on F.Cu, length 0.7778 mm
+[track_dangling]: Track has unconnected end
+    Local override; Severity: warning
+    @(157.1000 mm, 122.4300 mm): Track [Net-(J4-Pad3)] on F.Cu, length 0.0636 mm
+[text_on_edge_cuts]: Text (or dimension) on Edge.Cuts layer
+    Local override; Severity: error
+    @(177.7000 mm, 96.0750 mm): PCB Text 'X Swap' on Edge.Cuts
+[text_on_edge_cuts]: Text (or dimension) on Edge.Cuts layer
+    Local override; Severity: error
+    @(177.4000 mm, 110.4000 mm): PCB Text 'Y Swap' on Edge.Cuts
+[text_on_edge_cuts]: Text (or dimension) on Edge.Cuts layer
+    Local override; Severity: error
+    @(184.9750 mm, 110.0250 mm): PCB Text 'Amiga Mouse' on Edge.Cuts
+
+** Found 1 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; Severity: error
+    @(154.6050 mm, 112.3150 mm): Through hole pad 12 [Net-(J2-Pad3)] of U2
+    @(162.2250 mm, 112.3150 mm): Track [Net-(J2-Pad3)] on B.Cu, length 2.5400 mm
+
+** Found 0 Footprint errors **
+
+** End of Report **
