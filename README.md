@@ -12,7 +12,13 @@ My additions are:
 * support for 3 button mice
 * Re-arrange pinout so its compatable with the Amiga mouse. 
 
+BUGS!
+-----
+Minor bug, C1 should be next to C2, and C8 should be where C1 is for decoupling!
+Fortunately, as the board is overly decoupled anyway (And frankly, its doubtful if U2 needs decoupling, as its only changes its logic states a few tens of times a second at most), this isnt really an issue, HOWEVER Do make sure you dont put a 100nf as C1. This could cause bad reads from the mouse. 
+
 Parts required: 
+---------------
 * 74LS191 x4
 * 74LS257 x2
 * 74LS138
