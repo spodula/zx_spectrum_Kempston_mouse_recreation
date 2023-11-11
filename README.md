@@ -23,7 +23,7 @@ Parts required:
 * 74LS257 x2
 * 74LS138
 * 74LS00
-* 74LS1235
+* 74LS125
 * 10nf capacitor x2
 * 100nf capacitors x9
 * PCB mount DB9 connector.
